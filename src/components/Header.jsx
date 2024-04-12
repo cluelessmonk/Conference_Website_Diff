@@ -1,7 +1,7 @@
 import banner from "../images/banner.png";
 function Header() {
   return (
-    <div className="p-2 w-full h-50">
+    <div className=" w-full h-50 border border-black mb-2">
       <img
         src={banner}
         alt="Your Image"

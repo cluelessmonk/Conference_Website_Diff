@@ -1,7 +1,7 @@
 function FeeStructure() {
   return (
-    <div className="mx-auto max-w-screen-xl px-4">
-      <h2 className="First text-3xl font-bold text-blue-600 mt-16 ml-1/3">
+    <div className="overflow-x-scroll p-2 ">
+      <h2 className="First text-3xl font-bold text-blue-600 ml-1/3">
         Fee Structure (excluding GST @18%)
       </h2>
       <h3 className="text-lg text-blue-600 mt-4 ml-1/3">

@@ -1,5 +1,5 @@
 function Program_Schedule() {
-  return <div>Program_Schedule</div>;
+  return <div className="p-4"> Programme Schedule</div>;
 }
 
 export default Program_Schedule;

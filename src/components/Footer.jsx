@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className=" p-2 col-span-12 min-h-[100px] rounded-lg shadow  ">
+    <div className="   col-span-12 min-h-[100px] rounded-lg shadow  ">
       <footer className="bg-neutral-100 text-center dark:bg-neutral-600 lg:text-left">
         <div className="container p-6">
           <div className="grid gap-x-4 md:grid-cols-2 lg:grid-cols-3">

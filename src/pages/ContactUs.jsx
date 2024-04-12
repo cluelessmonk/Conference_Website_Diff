@@ -1,11 +1,11 @@
 function ContactUs() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <button className="ContactUs-button py-4 px-8 rounded-lg bg-blue-600 text-white text-3xl font-bold mb-8">
+    <div className="flex flex-col items-center p-3  h-full text-white overflow-x-auto ">
+      <button className="ContactUs-button py-4 px-8 rounded-3xl  bg-blue-600 text-white text-3xl font-bold mb-8">
         Contact Us
       </button>
 
-      <h3 className="text-blue-600 underline text-2xl mb-4">
+      <h3 className="text-white underline text-2xl mb-4">
         Secretariat SCES 2024
       </h3>
 
@@ -17,7 +17,7 @@ function ContactUs() {
       <p className="text-blue-600 text-lg mb-2">
         Mobile: +919984421252, +919044533554
       </p>
-      <p className="text-blue-600 text-lg mb-2">
+      <p className="text-blue-600 text-base mb-2">
         Email:{" "}
         <a
           href="mailto:manishas@mnnit.ac.in?"

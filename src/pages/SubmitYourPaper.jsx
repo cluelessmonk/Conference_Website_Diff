@@ -2,11 +2,12 @@ import "./styles.css";
 function ConferenceDetails() {
   return (
     <div className="mx-auto max-w-screen-xl px-4">
-      <h1 className="text-center text-blue-600 text-lg font-bold mt-8">
+      <br />
+      {/* <h1 className="text-center text-white  text-3xl  font-semibold ">
         Important Dates
-      </h1>
+      </h1> */}
 
-      <button className="SubmityourAbstract-button mx-auto my-8 py-4 px-8 rounded-lg bg-blue-600 text-white text-2xl font-bold block">
+      <button className="SubmityourAbstract-button mx-auto text-3xl my-8 py-4 px-8 rounded-lg bg-blue-600 text-white text-2xl font-bold block">
         Submit Your Abstract
       </button>
 
