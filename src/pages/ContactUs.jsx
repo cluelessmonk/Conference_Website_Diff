@@ -1,46 +1,43 @@
+import styles from "../styles/ContactUs.module.css";
+
 function ContactUs() {
   return (
-    <div className="flex flex-col items-center p-3  h-full text-white overflow-x-auto ">
-      <button className="ContactUs-button py-4 px-8 rounded-3xl  bg-blue-600 text-white text-3xl font-bold mb-8">
-        Contact Us
-      </button>
-
-      <h3 className="text-white underline text-2xl mb-4">
-        Secretariat SCES 2024
-      </h3>
-
-      <h2 className="text-blue-600 text-xl mb-2">
-        Department of Computer Science and Engineering, MNNIT Allahabad
-      </h2>
-
-      <p className="text-blue-600 text-lg mb-2">Phone: 91-5322271237, 1238</p>
-      <p className="text-blue-600 text-lg mb-2">
-        Mobile: +919984421252, +919044533554
-      </p>
-      <p className="text-blue-600 text-base mb-2">
-        Email:{" "}
-        <a
-          href="mailto:manishas@mnnit.ac.in?"
-          target="_blank"
-          className="underline"
-        >
-          manishas@mnnit.ac.in,
-        </a>
-        &nbsp;
-        <a
-          href="mailto:seemanara@mnnit.ac.in?"
-          target="_blank"
-          className="underline"
-        >
-          seemanara@mnnit.ac.in
-        </a>
-      </p>
-      <p className="text-blue-600 text-lg mb-2">
-        Website:{" "}
-        <a href="http://www.mnnit.ac.in/" target="_blank" className="underline">
-          www.mnnit.ac.in
-        </a>
-      </p>
+    <div className={styles["contact-container"]}>
+      <h3 className="text-3xl font-bold mt-3 mb-3">Contact Us</h3>
+      <div className="text-2xl mt-3 mb-3 ">
+        <p>
+          <strong>Address:</strong> 123 Main Street, City, Country
+        </p>
+        <p>
+          <strong>Email:</strong> contact@example.com
+        </p>
+        <p>
+          <strong>Phone:</strong> +1 (555) 123-4567
+        </p>
+      </div>
+      <div className={styles["contact-form"]}>
+        <h2>Send Us a Message</h2>
+        <form>
+          <div className={styles["form-group"]}>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div className={styles["form-group"]}>
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div className={styles["form-group"]}>
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button
+            type="submit"
+            className="btn btn-primary hover:bg-gray-800 bg-slate-600 rounded-xl w-36 h-9 text-white "
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

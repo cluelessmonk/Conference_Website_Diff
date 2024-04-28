@@ -1,0 +1,29 @@
+/* ImportantDates.module.css */
+
+.important-dates-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.important-dates-heading {
+  color: blue;
+}
+
+.date-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.date-table th,
+.date-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.date-table th {
+  background-color: #f2f2f2;
+}
+
+.date-value {
+  font-style: italic;
+}

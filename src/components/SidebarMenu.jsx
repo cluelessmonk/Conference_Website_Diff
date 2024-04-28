@@ -13,11 +13,9 @@ function SidebarMenu() {
     { id: 7, title: "Special Session", path: "/special_session" },
     { id: 8, title: "Fee Structure", path: "/fee_structure" },
     { id: 9, title: "Submit Your Paper", path: "/submit_your_paper" },
-    { id: 10, title: "Conference Info", path: "/conference_info" },
+    { id: 10, title: "Paper Submission Guidlines", path: "/conference_info" },
     { id: 11, title: "Contact Us", path: "/contact_us" },
     { id: 12, title: "Call for Papers", path: "/call_for_papers" },
-    { id: 13, title: "Special Session", path: "/special_session" },
-    { id: 14, title: "Special Session", path: "/special_session" },
   ];
 
   return (

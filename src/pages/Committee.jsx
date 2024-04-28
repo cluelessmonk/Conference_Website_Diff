@@ -112,7 +112,7 @@ const Committee = () => {
           </div>
 
           <div className="table-container">
-            <h2 className="text-xl font-bold mb-4 underline">
+            <h2 className="text-xl font-bold mb-4 underlined">
               Organizing Coordinator(s)
             </h2>
             <table className="table-auto w-full border-collapse border border-gray-300">

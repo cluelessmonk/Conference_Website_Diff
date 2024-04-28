@@ -1,0 +1,41 @@
+/* SubmissionGuidelines.module.css */
+
+.submission-guidelines-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.submission-guidelines {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.guideline-heading {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.submission-guidelines p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.important-points {
+  color: #666;
+  margin-top: 20px;
+}
+
+.important-label {
+  font-weight: bold;
+  color: red;
+}
+
+.bullet-points {
+  margin-left: 20px;
+}
+
+.bullet-points li {
+  list-style-type: disc;
+}

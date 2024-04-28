@@ -1,0 +1,14 @@
+.header {
+  background-image: url("../images/banner.png");
+  background-size: cover; /* Scale the background image to cover the entire header */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  height: 150px; /* Adjust the height of the header as needed */
+}
+
+.footer {
+  background-color: #364244;
+  color: #f7f2f2;
+  padding: 20px;
+  text-align: center;
+}

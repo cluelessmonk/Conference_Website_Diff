@@ -1,27 +1,63 @@
 import React from "react";
+import styles from "../styles/CallForPapers.module.css";
 
 const CallforPapers = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="contentblock bg-cover bg-center p-8 rounded-lg">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold mb-4">Call for Papers</h1>
-          <h2 className="text-2xl font-bold mb-4">Technical Tracks:</h2>
+    <div>
+      <br />
+      <div className={styles["call-for-papers-container"]}>
+        <div className={styles["call-for-papers"]}>
+          <h2>Call for Papers</h2>
+          <p>
+            We invite researchers, academicians, practitioners, and industry
+            experts to submit their original research papers to our conference.
+            Topics of interest include but are not limited to:
+          </p>
+          <ul className={styles["bullet-points"]}>
+            <li>Nanotechnology in diagnostic applications</li>
+            <li>Omics technology as new dimension in disease diagnosis</li>
+            <li className={styles.important}>
+              Advancements in cancer diagnostics
+            </li>
+            <li>Development of liquid biopsy based assays</li>
+            <li>Point of care and affordable diagnostics</li>
+            <li>Miniaturization and automation of diagnostic methods</li>
+            <li className={styles.important}>
+              Precision medicine and digital health
+            </li>
+            <li className={styles.important}>
+              Impact and use of AI and ML in diagnostics
+            </li>
+            <li>Advanced imaging techniques for diagnostics</li>
+          </ul>
+          <p>
+            Submissions must be in PDF format and should not exceed 8 pages. All
+            papers will be peer-reviewed, and accepted papers will be published
+            in the conference proceedings.
+          </p>
+          <h3>Important Dates</h3>
+          <table className={styles["important-date-table"]}>
+            <tbody>
+              <tr>
+                <th>Description</th>
+                <th>Date</th>
+              </tr>
+              <tr>
+                <td>Abstract Submission Deadline</td>
+                <td className={styles["date-value"]}>15th August 2024</td>
+              </tr>
+              <tr>
+                <td>Notification of Acceptance</td>
+                <td className={styles["date-value"]}>15th September 2024</td>
+              </tr>
+              <tr>
+                <td>Camera-Ready Paper Submission</td>
+                <td className={styles["date-value"]}>15th October 2024</td>
+              </tr>
+            </tbody>
+          </table>
+          <button className="btn btn-primary mt-3">Submit Paper</button>
         </div>
-        <p className="text-lg font-semibold text-green-800 mb-4">
-          Power, Energy &amp; Control:
-        </p>
-        <p className="text-base text-black mb-4">
-          Control Systems, Instrumentation &amp; Measurement, Dielectrics &amp;
-          Electrical Insulation, EHV AC &amp; HVDC Transmission, Electric
-          Vehicle/ Mobility, Energy storage &amp; Battery Charging Techniques,
-          Industrial Drives &amp; Applications, Intelligent Transportation
-          Systems, Modelling &amp; Simulation of Machines, Power Electronic
-          Converters, Power Quality &amp; EMI, Power System Operation &amp;
-          Control, Power System Protection, Regulation &amp; Electricity Market,
-          Renewable Energy &amp; Grid Integration, Robotics &amp; Automation,
-          Smart Grid &amp; Micro Grid Technologies.
-        </p>
       </div>
     </div>
   );

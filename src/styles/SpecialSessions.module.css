@@ -1,0 +1,29 @@
+/* SpecialSessions.css */
+
+.special-sessions-container {
+  margin: 20px;
+}
+
+.session {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.session h3 {
+  color: #333;
+}
+
+.session ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.session ul li {
+  margin-bottom: 8px;
+}
+
+.session ul li:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,58 @@
+/* CallForPapers.module.css */
+
+.call-for-papers-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.call-for-papers {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.call-for-papers h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.call-for-papers p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.call-for-papers ul {
+  color: #666;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.call-for-papers ul li {
+  list-style-type: disc;
+}
+
+.call-for-papers .important {
+  font-weight: bold;
+  color: #0066ff;
+}
+
+.call-for-papers .important-date-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.call-for-papers .important-date-table th,
+.call-for-papers .important-date-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.call-for-papers .important-date-table th {
+  background-color: #f2f2f2;
+}
+
+.call-for-papers .date-value {
+  font-style: italic;
+}
